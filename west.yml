@@ -23,6 +23,8 @@ manifest:
       url-base: https://github.com/zephyrproject-rtos
     - name: babblesim
       url-base: https://github.com/BabbleSim
+    - name: downstream
+      url-base: http://10.0.2.136/zephyrproject-rtos
 
   group-filter: [-babblesim]
 
@@ -113,7 +115,8 @@ manifest:
       groups:
         - babblesim
     - name: canopennode
-      revision: dec12fa3f0d790cafa8414a4c2930ea71ab72ffd
+      remote: downstream
+      revision: 57c10606c7cc77f2edb3eaa2c988e8f8cef2f0f6
       path: modules/lib/canopennode
     - name: chre
       revision: b7955c27e50485b7dafdc3888d7d6afdc2ac6d96
