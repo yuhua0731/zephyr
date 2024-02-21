@@ -24,7 +24,7 @@ manifest:
     - name: babblesim
       url-base: https://github.com/BabbleSim
     - name: downstream
-      url-base: https://SimplAutomation@dev.azure.com/SimplAutomation/Zephyr/_git
+      url-base: https://github.com/yuhua0731
 
   group-filter: [-babblesim, -optional]
 
