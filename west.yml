@@ -24,7 +24,7 @@ manifest:
     - name: babblesim
       url-base: https://github.com/BabbleSim
     - name: downstream
-      url-base: http://10.0.2.136/zephyrproject-rtos
+      url-base: https://github.com/yuhua0731
 
   group-filter: [-babblesim, -optional]
 
